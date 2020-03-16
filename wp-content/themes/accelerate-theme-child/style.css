@@ -30,3 +30,31 @@ body {
 .button {
 	background: none repeat scroll 0 0 #45ac9d;
 }
+
+/* change blog post div width */
+.blog-post {
+	width: 50%;
+	float: left;
+	margin-bottom: 2em;
+}
+
+/* style "From the Blog" header */
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+/* style blog post title */
+.blog-post h3 {
+	font-size: 1.5em;
+}
+
+/* style the "Read More" link */
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
